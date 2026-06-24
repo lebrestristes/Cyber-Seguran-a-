@@ -1,0 +1,87 @@
+CSS
+
+
+:root {
+    --primary: #2563eb;
+    --background: #f8fafc;
+    --card: #ffffff;
+    --text: #1e293b;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: var(--background);
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: var(--card);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    max-width: 450px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.result-container {
+    display: flex;
+    background: #f1f5f9;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.password-display {
+    font-family: monospace;
+    font-size: 1.2rem;
+    word-break: break-all;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.btn-copy {
+    background: #e2e8f0;
+    padding: 0.5rem 1rem;
+}
+
+.btn-copy:hover {
+    background: #cbd5e1;
+}
+
+.btn-generate {
+    width: 100%;
+    background: var(--primary);
+    color: white;
+    padding: 0.75rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.btn-generate:hover {
+    background: #1d4ed8;
+}
+
+.option {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.75rem 0;
+    align-items: center;
+}
